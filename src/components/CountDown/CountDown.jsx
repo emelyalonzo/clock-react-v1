@@ -24,6 +24,7 @@ const CountDown = () => {
     }, 1000);
   }, []);
   return <div className="countDown">
+    <h3>End of bootcamp:</h3>
     <h2>{time}</h2>
   </div>;
 };

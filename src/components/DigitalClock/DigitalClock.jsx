@@ -12,7 +12,7 @@ const DigitalClock = () => {
   };
   return (
     <div className="digitalClock">
-      <h2>Local Time:</h2>
+      <h3>Local Time:</h3>
       <h2>{clockTime}</h2>
       <button onClick={setTime}>Click me</button>
     </div>
